@@ -1,14 +1,5 @@
-/*
-******************************Exercícios Treinamento************************
--- Nome: Victor Lucas Santos da Silva 
--- Módulo: PLSQL2 
--- Data: 24/11/2022
--- Tópico: 3
--- Instrutor: Gustavo
-****************************************************************************
-*/
 
-/*Exercício nº1*/
+/* TASK 1*/
 
 --a) 
 
@@ -92,7 +83,7 @@ EXECUTE job_pkg.add_job('IT_SYSAN', 'SYSTEMS ANALYST');
 
 SELECT * FROM jobs WHERE job_id = 'IT_SYSAN';
 
-/*Exercício nº2*/
+/*TASK 2*/
 
 --a) 
 
