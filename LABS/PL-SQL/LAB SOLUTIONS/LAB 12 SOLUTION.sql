@@ -23,6 +23,8 @@ CREATE OR REPLACE PACKAGE emp_pkg IS
   FUNCTION get_employee(p_family_name hr.employees.last_name%TYPE)
     RETURN hr.employees%ROWTYPE;
 
+  PROCEDURE print_employee(rec_employee hr.employees%ROWTYPE); 
+
 END emp_pkg;
 
 --package body
